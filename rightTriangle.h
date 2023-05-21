@@ -13,9 +13,7 @@
 #include <cmath>
 
 /// @class RightTriangle
-/// @brief an abstract base class for polygons
-
-
+/// @brief a derived class for rightTriangles
 class RightTriangle : public Polygon {
 private:
     float base;
